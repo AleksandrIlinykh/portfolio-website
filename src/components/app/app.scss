@@ -8,14 +8,14 @@
     scroll-behavior: smooth;
     background-color: lightsalmon;
     scroll-snap-type: y mandatory;
-    scrollbar-width: none;
+    //scrollbar-width: none;
     &::-webkit-scrollbar {
-      display: none;
+      //display: none;
     }
     > *{
       width: 100wv;
       height: calc(100vh - 70px);
-      scroll-snap-align: start;
+      //scroll-snap-align: start;
     }
   }
 }
