@@ -5,6 +5,7 @@ import Portfolio from "../portfolio/portfolio";
 import Works from "../works/works";
 import Testimonials from "../testimonials/testimonials";
 import Contact from "../contact/contact";
+import Menu from "../menu/menu";
 
 import "./app.scss";
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="app">
       <Topbar isMenuOpen={isMenuOpen} serIsMenuOpen={serIsMenuOpen} />
+      <Menu isMenuOpen={isMenuOpen} serIsMenuOpen={serIsMenuOpen} />
       <div className="section">
         <Intro />
         <Portfolio />
