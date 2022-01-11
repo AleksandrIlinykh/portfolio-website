@@ -3,6 +3,7 @@ import "./intro.scss";
 export default function Intro() {
   return (
     <div className="intro" id="intro">
+      <h2>About me</h2>
       <div className="left">
         <div className="imgContainer">
           <img src="../assets/myPhoto.png" alt="" />
@@ -13,7 +14,6 @@ export default function Intro() {
           <h2>
             Hi! <br />
             I'm Alexandr <br />a WEB developer <br />
-            (but you call name Sasha)
           </h2>
         </div>
         <a href="#portfolio">
