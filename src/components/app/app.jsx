@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Topbar from "../topbar/topbar";
+import Header from "../header/header";
 import Intro from "../intro/intro";
 import Portfolio from "../portfolio/portfolio";
 import Works from "../works/works";
@@ -13,8 +13,9 @@ function App() {
   const [isMenuOpen, serIsMenuOpen] = useState(false);
   return (
     <div className="app">
-      <Topbar isMenuOpen={isMenuOpen} serIsMenuOpen={serIsMenuOpen} />
-      <Menu isMenuOpen={isMenuOpen} serIsMenuOpen={serIsMenuOpen} />
+      <Header isMenuOpen={isMenuOpen} serIsMenuOpen={serIsMenuOpen} />
+
+      {/*<Menu isMenuOpen={isMenuOpen} serIsMenuOpen={serIsMenuOpen} />*/}
       <div className="section">
         <Intro />
         <Portfolio />
