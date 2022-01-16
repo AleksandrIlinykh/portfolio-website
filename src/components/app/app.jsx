@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "../header/header";
-import Intro from "../intro/intro";
+import Home from "../home/home";
 import Portfolio from "../portfolio/portfolio";
 import Works from "../works/works";
 import Testimonials from "../testimonials/testimonials";
@@ -14,10 +14,8 @@ function App() {
   return (
     <div className="app">
       <Header isMenuOpen={isMenuOpen} serIsMenuOpen={serIsMenuOpen} />
-
-      {/*<Menu isMenuOpen={isMenuOpen} serIsMenuOpen={serIsMenuOpen} />*/}
       <div className="section">
-        <Intro />
+        <Home />
         <Portfolio />
         <Works />
         <Testimonials />
